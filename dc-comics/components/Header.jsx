@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <div className="logo"><img src="" alt="DC Logo"/></div>
+        <div className="logo"><img src="./assets/img/dc-logo.png" alt="DC Logo"/></div>
           <ul className="menu">
             <li><a href="#">CHARACTERS</a></li>
             <li><a href="#">COMICS</a></li>
