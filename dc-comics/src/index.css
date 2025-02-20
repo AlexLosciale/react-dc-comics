@@ -55,7 +55,14 @@ nav {
 }
 
 .product-card{
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 5);
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.product-card img {
+    width: 150px;
+    height: auto;
 }
 
 .promo {
