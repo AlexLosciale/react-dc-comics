@@ -35,9 +35,21 @@ nav {
 
 .content {
     text-align: center;
-    padding: 50px;
     background-color: black;
     font-size: 24px;
+}
+
+.content-first{
+    background-image: url("./assets/img/jumbotron.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.content-second {
+    background-color: #111;
+    padding: 20px;
 }
 
 .promo {

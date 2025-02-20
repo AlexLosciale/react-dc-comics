@@ -1,7 +1,12 @@
 const Main = () => {
   return (
     <main>
-      <section className="content">-- Content goes here --</section>
+      <section className="content">
+        <div className="content-first"></div>
+        <div className="content-second">
+          
+        </div>
+      </section>
       <section className="promo">
         <div className="promo-item">
           <img src="src\assets\img\buy-comics-digital-comics.png" alt="digital comic"/>

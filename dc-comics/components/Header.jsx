@@ -1,13 +1,9 @@
-import logo from "./logo";
-import navbar from "./navBar";
+import Navbar from "./navBar";
 
 const Header = () => {
   return (
     <header>
-      <nav>
-          {logo()}
-          {navbar()}
-        </nav>
+      <Navbar />
     </header>
   );
 }

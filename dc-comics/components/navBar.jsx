@@ -1,3 +1,5 @@
+import logo from "./logo";
+
 const navbar = () => {
     const menuLinks = [
         { id: 1, link: "CHARACTERS", url: "#" },
@@ -13,19 +15,23 @@ const navbar = () => {
       ];
 
     return (
-        <ul className="menu">
-            {
-                menuLinks.map((menuLink) => {
-                    return(
-                        <li key ={menuLink.id}>
-                            <a href={menuLink.url}>
-                                {menuLink.link}
-                            </a>
-                        </li>
-                    )
-                })
-            }
-        </ul>
+        <nav>
+            {logo()}
+        
+            <ul className="menu">
+                {
+                    menuLinks.map((menuLink) => {
+                        return(
+                            <li key ={menuLink.id}>
+                                <a href={menuLink.url}>
+                                    {menuLink.link}
+                                </a>
+                            </li>
+                        )
+                    })
+                }
+            </ul>
+        </nav>
     )
 };
 export default navbar;
