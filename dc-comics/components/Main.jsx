@@ -9,6 +9,8 @@ const Main = () => {
         <ProductCard />
       </section>
 
+      <button className="signup-btn load-btn">LOAD MORE...</button>
+
       <section className="promo">
         <div className="promo-item">
           <img src="src\assets\img\buy-comics-digital-comics.png" alt="digital comic"/>
